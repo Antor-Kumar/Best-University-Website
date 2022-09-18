@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div class="sub-header">
+        <nav>
+          <a href=""><img src="logo.png" alt=""></a>
+          <div class="nav-links" id="nav-Links">
+            <i class="fa fa-times antor" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="course.html">Course</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contect.html">Contact Us</a></li>
+            </ul>
+          </div>
+         <i class="fa fa-bars antor" onclick="showMenu()"></i>
+        </nav>
+        <h1> About us</h1>
+      </div>
+
+<!-- --------- About us content--------- -->
+
+<section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>we are the world'slargest university</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ab cum quae, voluptates delectus doloribus exercitationem numquam perferendis impedit quaerat voluptate obcaecati porro deserunt commodi quam in aperiam amet animi iusto odit magnam error atque eligendi? Recusandae nam minima velit?</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="about.jpg" alt="about img">
+      </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum cum repellendus molestiae,<br> optio molestias quos expedita fuga quibusdam nihil.</p>
+  <div class="icon">
+    <i class="fa-brands fa-facebook-square ont"></i>
+    <i class="fa-brands fa-twitter-square ont"></i>
+    <i class="fa-brands fa-instagram-square ont"></i>
+    <i class="fa-brands fa-linkedin ont"></i>
+  </div>
+  <p>Made with <i class="fa-solid fa-heart-pulse ont"></i> by Easy Tutorials</p>
+</section>
+
+  <script>
+      var navLinks = document.getElementById("nav-Links");
+      function showMenu() {
+        
+        navLinks.style.right = "0";  
+        console.log(navLinks)
+      }
+      
+      function hideMenu() {
+        navLinks.style.right ="-200px";
+      }
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.min.js" integrity="sha512-Cvxz1E4gCrYKQfz6Ne+VoDiiLrbFBvc6BPh4iyKo2/ICdIodfgc5Q9cBjRivfQNUXBCEnQWcEInSXsvlNHY/ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
